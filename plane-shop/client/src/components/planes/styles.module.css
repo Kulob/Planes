@@ -1,0 +1,33 @@
+.planesGrid {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  /* flex: 1; */
+  gap:30px;
+  margin-bottom: 50px;
+}
+.soft {
+  display: flex;
+  background-color: #442d85;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.sortBtn {
+  font-size: 22px;
+}
+.planesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.createPlaneBtn {
+  background: linear-gradient(180deg, #fff 0%, #d9dfff 100%);
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #000;
+  padding: 8px 12px;
+}
